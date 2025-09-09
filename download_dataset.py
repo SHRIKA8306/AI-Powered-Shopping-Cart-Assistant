@@ -10,6 +10,7 @@ from roboflow import Roboflow
 
 rf = Roboflow(api_key="w0YwJTLtEtGUjmOWFZ31")
 project = rf.workspace("kirill-kornilov-kn3yx").project("shopping-trolley-kn5tj")
-version = project.version(4)
+version = project.version(1)
 dataset = version.download("yolov8")
+
 
